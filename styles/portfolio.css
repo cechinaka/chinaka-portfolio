@@ -1,5 +1,45 @@
-body {
-  background: blue;
-  font-family: "Poppins", sans-serif;
+:root {
+  --contact-color: rgb(59, 163, 163);
+  --hero-background-color: #f9f7fe;
+  --heading-font-family: "Poppins", sans-serif;
+  --secondary-font-family: "Handlee", cursive;
 }
 
+body {
+  background: #FFFFFF;
+  font-family: var(--heading-font-family);
+}
+
+h1 {
+  font-size: 88px;
+}
+
+h1, h2, h4, h5, h6, p {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h3 {
+  font-family: var(--secondary-font-family);
+  font-size: 32px;
+}
+
+.hero {
+  background: var(--hero-background-color);
+  text-align: center;
+  padding: 160px 30px;
+}
+
+.hero p {
+    font-size: 34px;
+}
+
+.btn-contact {
+  background: var(--contact-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
