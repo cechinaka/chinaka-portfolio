@@ -24,7 +24,7 @@ h2 {
   font-size: 30px;
 }
 
-.header-apps {
+.header-apps, .project-header {
   font-size: 36px;
 }
 
@@ -70,4 +70,47 @@ h3 {
 
 .app-grid {
   padding: 20px 160px;
+  margin: 30px;
+}
+
+.card-background {
+  background: var(--hero-background-color);
+}
+
+.card-footer {
+  border-top: none;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  .hero p {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .header-apps, .card-text, .card-title {
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  .app-grid {
+    padding: 10px 10px;
+  }
+
+  .btn-contact-launch {
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .project-header {
+    margin: 10px 12px;
+    font-size: 18px;
+  }
+
 }
