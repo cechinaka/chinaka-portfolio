@@ -82,7 +82,7 @@ h3 {
 }
 
 .content-section {
-  padding: 160px 20px;
+  padding: 140px 20px;
 }
 
 .content-section h1 {
@@ -96,6 +96,12 @@ h3 {
 
 .profile-picture {
   border-radius: 20px;
+}
+
+.latest-projects {
+  border: 1px solid rgb(202, 196, 196);
+  border-radius: 10px;
+  box-shadow: 10px 5px 6px rgb(208, 212, 221);
 }
 
 @media (max-width: 900px) {
