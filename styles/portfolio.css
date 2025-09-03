@@ -1,5 +1,6 @@
 :root {
   --contact-color: rgb(59, 163, 163);
+  --contact-color-dark: rgba(51, 138, 128, 0.864);
   --hero-background-color: #f9f7fe;
   --heading-font-family: "Poppins", sans-serif;
   --secondary-font-family: "Handlee", cursive;
@@ -104,6 +105,35 @@ h3 {
   box-shadow: 10px 5px 6px rgb(208, 212, 221);
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: var(--heading-font-family);
+  font-size: 30px;
+  margin-left: 10px;
+  line-height: 44px;
+}
+
+nav a, h2 {
+  text-decoration: none;
+  color: rgb(51, 49, 49);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover, nav li.active a {
+  color: var(--contact-color-dark);
+  font-weight: 500;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 30px;
@@ -159,6 +189,10 @@ h3 {
 
   .profile-picture {
     margin-top: 10px;
+  }
+
+  nav h2, li {
+    font-size: 20px;
   }
 
 }
