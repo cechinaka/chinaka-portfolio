@@ -25,8 +25,10 @@ h2 {
   font-size: 30px;
 }
 
-.header-apps, .project-header {
+.project-header {
+  font-family: var(--heading-font-family);
   font-size: 36px;
+  padding-top: 30px;
 }
 
 p {
@@ -70,16 +72,17 @@ h3 {
 }
 
 .app-grid {
-  padding: 20px 50px;
-  margin: 30px;
+  padding: 10px 10px;
+  margin: 10px 5px;
 }
 
-.card-background {
+.card-background, .card-footer {
   background: var(--hero-background-color);
 }
 
 .card-footer {
   border-top: none;
+  padding: 10px;
 }
 
 .content-section {
@@ -114,7 +117,7 @@ nav li, .header-list {
   list-style: none;
   font-family: var(--heading-font-family);
   font-size: 30px;
-  margin-left: 10px;
+  margin-left: 5px;
   line-height: 40px;
   padding: 20px 10px;
 }
@@ -193,8 +196,9 @@ nav ul {
     margin-top: 10px;
   }
 
-  nav h2, li {
-    font-size: 20px;
+  nav h2, li, a {
+    font-size: 18px;
+    line-height: 20px;
   }
 
 }
