@@ -27,8 +27,9 @@ h2 {
 
 .project-header {
   font-family: var(--heading-font-family);
-  font-size: 36px;
-  padding-top: 30px;
+  margin: 60px 30px 30px 30px;
+  padding: 60px 0px;
+  font-size: 42px;
 }
 
 p {
@@ -46,7 +47,7 @@ h3 {
 .hero {
   background: var(--hero-background-color);
   text-align: center;
-  padding: 160px 30px;
+  padding: 200px 30px;
 }
 
 .hero p {
@@ -76,13 +77,17 @@ h3 {
   margin: 10px 5px;
 }
 
+.additional-row-app {
+  margin-top: 90px;
+}
+
 .card-background, .card-footer {
   background: var(--hero-background-color);
 }
 
 .card-footer {
   border-top: none;
-  padding: 10px;
+  padding-bottom: 20px;
 }
 
 .content-section {
@@ -152,6 +157,10 @@ nav ul {
     font-size: 20px;
   }
 
+  .hero {
+    padding: 60px 30px;
+  }
+
   .header-apps, .card-text, .card-title {
     font-size: 18px;
     margin: 10px;
@@ -167,8 +176,17 @@ nav ul {
   }
 
   .project-header {
-    margin: 10px 12px;
+    margin: 0px;
+    padding: 40px 10px 0px 10px;
     font-size: 18px;
+  }
+
+  .additional-row-app {
+    margin-top: 24px;
+  }
+
+  .card {
+    margin-bottom: 30px;
   }
 
   .content-section {
@@ -194,6 +212,10 @@ nav ul {
 
   .profile-picture {
     margin-top: 10px;
+  }
+
+  nav {
+    padding: 0px;
   }
 
   nav h2, li, a {
