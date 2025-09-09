@@ -18,18 +18,29 @@ h1, h2, h4, h5, h6, p {
 }
 
 h1 {
-  font-size: 88px;
+  font-size: 80px;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 28px;
+}
+
+h3 {
+  font-family: var(--secondary-font-family);
+  font-size: 32px;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 400;
+  opacity: .7;
 }
 
 .project-header {
   font-family: var(--heading-font-family);
-  margin: 60px 30px 30px 30px;
-  padding: 40px 0px;
-  font-size: 42px;
+  margin: 30px 10px 10px 10px;
+  padding: 36px 0px;
+  font-size: 30px;
 }
 
 p {
@@ -39,15 +50,12 @@ p {
   line-height: 32px;
 }
 
-h3 {
-  font-family: var(--secondary-font-family);
-  font-size: 32px;
-}
+
 
 .hero {
   background: var(--hero-background-color);
   text-align: center;
-  padding: 150px 30px;
+  padding: 120px 30px;
 }
 
 .hero p {
@@ -61,6 +69,14 @@ h3 {
   font-size: 18px;
   line-height: 27px;
   padding: 12px 20px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-main:hover {
+  color: var(--contact-color-dark);
+  font-weight: bold;
+  background-color: white;
+  border: 2px solid var(--contact-color-dark);
 }
 
 .btn-app-launch {
@@ -78,7 +94,7 @@ h3 {
 }
 
 .additional-row-app {
-  margin-top: 90px;
+  margin-top: 50px;
 }
 
 .card-background, .card-footer {
@@ -114,14 +130,14 @@ h3 {
 }
 
 nav {
-  padding: 20px 0;
+  padding: 0;
 }
 
 nav li, .header-content {
   display: inline;
   list-style: none;
   font-family: var(--heading-font-family);
-  font-size: 30px;
+  font-size: 24px;
   margin-left: 5px;
   line-height: 40px;
   padding: 20px 10px;
@@ -186,6 +202,22 @@ footer .contact-links a {
 footer .contact-links a:hover {
   color: white;
   background: var(--contact-color-dark);
+}
+
+.project-footer a {
+  color: var(--contact-color-dark);
+  transition: all 150ms ease-in-out;
+}
+
+.project-footer a:hover {
+  font-weight: bold;
+}
+
+@media (max-width: 1200px) {
+  footer .contact-box {
+    padding: 0px;
+    margin: 20px 100px;
+  }
 }
 
 @media (max-width: 900px) {
