@@ -127,6 +127,10 @@ p {
   box-shadow: 10px 5px 6px rgb(208, 212, 221);
 }
 
+.work-text {
+  text-decoration: none;
+}
+
 nav {
   padding: 0;
 }
