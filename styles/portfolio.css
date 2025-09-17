@@ -131,6 +131,10 @@ p {
   text-decoration: none;
 }
 
+.bg-body-tertiary {
+  background-color: #FFFFFF !important;
+}
+
 nav {
   padding: 0;
 }
@@ -142,7 +146,6 @@ nav li, .header-content {
   font-size: 24px;
   margin-left: 5px;
   line-height: 40px;
-  padding: 20px 10px;
 }
 
 nav a, h2, p {
@@ -153,9 +156,17 @@ nav a, h2, p {
   margin: 0px;
 }
 
-nav a:hover, nav li.active a {
-  color: var(--contact-color-dark);
-  font-weight: 500;
+.navbar-nav a:hover, .active {
+  color: var(--contact-color-dark) !important;
+  font-weight: bolder;
+}
+
+.navbar-nav .home-first {
+  padding-left: 600px;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
 }
 
 .sheCodes-logo {
